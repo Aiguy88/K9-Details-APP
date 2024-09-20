@@ -1,0 +1,31 @@
+# .gitignore for K9 Mastery Hub
+
+# Ignore macOS generated files
+.DS_Store
+
+# Ignore Windows generated files
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Node.js modules
+node_modules/
+
+# Environment variables
+.env
+.venv/
+
+# Android/iOS build directories
+/build/
+/dist/
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coveragerc
